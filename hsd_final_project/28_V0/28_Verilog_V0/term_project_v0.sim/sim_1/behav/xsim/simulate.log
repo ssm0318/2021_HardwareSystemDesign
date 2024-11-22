@@ -1,0 +1,131 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance tb_pe_array.MY_PE_ARRAY.u_clk.inst.mmcm_adv_inst 
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[0].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[1].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[2].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[3].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[4].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[5].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[6].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[7].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[8].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[9].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[10].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[11].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[12].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[13].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[14].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[15].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[16].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[17].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[18].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[19].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[20].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[21].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[22].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[23].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[24].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[25].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[26].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[27].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[28].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[29].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[30].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[31].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[32].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[33].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[34].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[35].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[36].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[37].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[38].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[39].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[40].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[41].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[42].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[43].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[44].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[45].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[46].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[47].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[48].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[49].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[50].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[51].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[52].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[53].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[54].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[55].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[56].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[57].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[58].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[59].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[60].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[61].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[62].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd
+Warning: WARNING : aresetn must be asserted or deasserted for a minimum of 2 cycles
+Time: 2180 ns  Iteration: 1  Process: /tb_pe_array/MY_PE_ARRAY/MY_PE_ARRAY[63].MY_PE/my_float/U0/i_synth/has_aresetn/check_reset  File: /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/floating_point_v7_1/hdl/floating_point_v7_1_vh_rfs.vhd

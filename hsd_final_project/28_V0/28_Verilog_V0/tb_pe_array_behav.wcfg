@@ -1,0 +1,2077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_pe_array_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_pe_array" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="817500000fs"></ZoomStartTime>
+      <ZoomEndTime time="1961500001fs"></ZoomEndTime>
+      <Cursor1Time time="1550000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="167"></NameColumnWidth>
+      <ValueColumnWidth column_width="61"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="group2563" type="group">
+      <obj_property name="label">pe_array</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/S_AXI_ACLK" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/BRAM_CLK" type="logic">
+         <obj_property name="ElementShortName">BRAM_CLK</obj_property>
+         <obj_property name="ObjectShortName">BRAM_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/S_AXI_ARESETN" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/BRAM_RDDATA" type="array">
+         <obj_property name="ElementShortName">BRAM_RDDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BRAM_RDDATA[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/BRAM_WRDATA" type="array">
+         <obj_property name="ElementShortName">BRAM_WRDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BRAM_WRDATA[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/BRAM_WE" type="array">
+         <obj_property name="ElementShortName">BRAM_WE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">BRAM_WE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/BRAM_ADDR" type="array">
+         <obj_property name="ElementShortName">BRAM_ADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BRAM_ADDR[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/present_state" type="array">
+         <obj_property name="ElementShortName">present_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">present_state[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/counter_load" type="array">
+         <obj_property name="ElementShortName">counter_load[7:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_load[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/counter_calc" type="array">
+         <obj_property name="ElementShortName">counter_calc[3:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_calc[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/counter_harv" type="array">
+         <obj_property name="ElementShortName">counter_harv[6:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_harv[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/counter_done" type="array">
+         <obj_property name="ElementShortName">counter_done[2:0]</obj_property>
+         <obj_property name="ObjectShortName">counter_done[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/rst_load" type="logic">
+         <obj_property name="ElementShortName">rst_load</obj_property>
+         <obj_property name="ObjectShortName">rst_load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/rst_calc" type="logic">
+         <obj_property name="ElementShortName">rst_calc</obj_property>
+         <obj_property name="ObjectShortName">rst_calc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/rst_harv" type="logic">
+         <obj_property name="ElementShortName">rst_harv</obj_property>
+         <obj_property name="ObjectShortName">rst_harv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/rst_done" type="logic">
+         <obj_property name="ElementShortName">rst_done</obj_property>
+         <obj_property name="ObjectShortName">rst_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/ain" type="array">
+         <obj_property name="ElementShortName">ain[63:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">ain[63:0][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/bin" type="array">
+         <obj_property name="ElementShortName">bin[63:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">bin[63:0][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/valid_en" type="array">
+         <obj_property name="ElementShortName">valid_en[63:0]</obj_property>
+         <obj_property name="ObjectShortName">valid_en[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/valid" type="array">
+         <obj_property name="ElementShortName">valid[63:0]</obj_property>
+         <obj_property name="ObjectShortName">valid[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/dvalid" type="array">
+         <obj_property name="ElementShortName">dvalid[63:0]</obj_property>
+         <obj_property name="ObjectShortName">dvalid[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/res" type="array">
+         <obj_property name="ElementShortName">res[63:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">res[63:0][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/dout" type="array">
+         <obj_property name="ElementShortName">dout[63:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[63:0][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1" type="array">
+         <obj_property name="ElementShortName">global_buffer1[63:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">global_buffer1[63:0][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[63]" type="array">
+            <obj_property name="ElementShortName">[63][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[63][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[62]" type="array">
+            <obj_property name="ElementShortName">[62][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[62][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[61]" type="array">
+            <obj_property name="ElementShortName">[61][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[61][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[60]" type="array">
+            <obj_property name="ElementShortName">[60][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[60][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[59]" type="array">
+            <obj_property name="ElementShortName">[59][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[59][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[58]" type="array">
+            <obj_property name="ElementShortName">[58][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[58][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[57]" type="array">
+            <obj_property name="ElementShortName">[57][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[57][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[56]" type="array">
+            <obj_property name="ElementShortName">[56][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[56][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[55]" type="array">
+            <obj_property name="ElementShortName">[55][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[55][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[54]" type="array">
+            <obj_property name="ElementShortName">[54][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[54][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[53]" type="array">
+            <obj_property name="ElementShortName">[53][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[53][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[52]" type="array">
+            <obj_property name="ElementShortName">[52][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[52][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[51]" type="array">
+            <obj_property name="ElementShortName">[51][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[51][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[50]" type="array">
+            <obj_property name="ElementShortName">[50][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[50][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[49]" type="array">
+            <obj_property name="ElementShortName">[49][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[49][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[48]" type="array">
+            <obj_property name="ElementShortName">[48][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[48][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[47]" type="array">
+            <obj_property name="ElementShortName">[47][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[47][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[46]" type="array">
+            <obj_property name="ElementShortName">[46][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[46][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[45]" type="array">
+            <obj_property name="ElementShortName">[45][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[45][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[44]" type="array">
+            <obj_property name="ElementShortName">[44][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[44][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[43]" type="array">
+            <obj_property name="ElementShortName">[43][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[43][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[42]" type="array">
+            <obj_property name="ElementShortName">[42][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[42][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[41]" type="array">
+            <obj_property name="ElementShortName">[41][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[41][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[40]" type="array">
+            <obj_property name="ElementShortName">[40][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[40][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[39]" type="array">
+            <obj_property name="ElementShortName">[39][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[39][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[38]" type="array">
+            <obj_property name="ElementShortName">[38][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[38][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[37]" type="array">
+            <obj_property name="ElementShortName">[37][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[37][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[36]" type="array">
+            <obj_property name="ElementShortName">[36][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[36][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[35]" type="array">
+            <obj_property name="ElementShortName">[35][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[35][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[34]" type="array">
+            <obj_property name="ElementShortName">[34][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[34][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[33]" type="array">
+            <obj_property name="ElementShortName">[33][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[33][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[32]" type="array">
+            <obj_property name="ElementShortName">[32][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[32][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[31]" type="array">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[30]" type="array">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[29]" type="array">
+            <obj_property name="ElementShortName">[29][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[28]" type="array">
+            <obj_property name="ElementShortName">[28][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[27]" type="array">
+            <obj_property name="ElementShortName">[27][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[26]" type="array">
+            <obj_property name="ElementShortName">[26][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[25]" type="array">
+            <obj_property name="ElementShortName">[25][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[24]" type="array">
+            <obj_property name="ElementShortName">[24][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[23]" type="array">
+            <obj_property name="ElementShortName">[23][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[22]" type="array">
+            <obj_property name="ElementShortName">[22][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[21]" type="array">
+            <obj_property name="ElementShortName">[21][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[20]" type="array">
+            <obj_property name="ElementShortName">[20][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[19]" type="array">
+            <obj_property name="ElementShortName">[19][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[18]" type="array">
+            <obj_property name="ElementShortName">[18][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[17]" type="array">
+            <obj_property name="ElementShortName">[17][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[16]" type="array">
+            <obj_property name="ElementShortName">[16][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[63]" type="array">
+            <obj_property name="ElementShortName">[63][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[63][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[62]" type="array">
+            <obj_property name="ElementShortName">[62][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[62][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[61]" type="array">
+            <obj_property name="ElementShortName">[61][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[61][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[60]" type="array">
+            <obj_property name="ElementShortName">[60][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[60][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[59]" type="array">
+            <obj_property name="ElementShortName">[59][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[59][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[58]" type="array">
+            <obj_property name="ElementShortName">[58][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[58][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[57]" type="array">
+            <obj_property name="ElementShortName">[57][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[57][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[56]" type="array">
+            <obj_property name="ElementShortName">[56][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[56][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[55]" type="array">
+            <obj_property name="ElementShortName">[55][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[55][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[54]" type="array">
+            <obj_property name="ElementShortName">[54][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[54][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[53]" type="array">
+            <obj_property name="ElementShortName">[53][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[53][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[52]" type="array">
+            <obj_property name="ElementShortName">[52][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[52][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[51]" type="array">
+            <obj_property name="ElementShortName">[51][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[51][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[50]" type="array">
+            <obj_property name="ElementShortName">[50][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[50][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[49]" type="array">
+            <obj_property name="ElementShortName">[49][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[49][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[48]" type="array">
+            <obj_property name="ElementShortName">[48][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[48][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[47]" type="array">
+            <obj_property name="ElementShortName">[47][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[47][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[46]" type="array">
+            <obj_property name="ElementShortName">[46][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[46][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[45]" type="array">
+            <obj_property name="ElementShortName">[45][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[45][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[44]" type="array">
+            <obj_property name="ElementShortName">[44][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[44][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[43]" type="array">
+            <obj_property name="ElementShortName">[43][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[43][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[42]" type="array">
+            <obj_property name="ElementShortName">[42][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[42][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[41]" type="array">
+            <obj_property name="ElementShortName">[41][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[41][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[40]" type="array">
+            <obj_property name="ElementShortName">[40][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[40][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[39]" type="array">
+            <obj_property name="ElementShortName">[39][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[39][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[38]" type="array">
+            <obj_property name="ElementShortName">[38][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[38][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[37]" type="array">
+            <obj_property name="ElementShortName">[37][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[37][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[36]" type="array">
+            <obj_property name="ElementShortName">[36][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[36][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[35]" type="array">
+            <obj_property name="ElementShortName">[35][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[35][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[34]" type="array">
+            <obj_property name="ElementShortName">[34][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[34][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[33]" type="array">
+            <obj_property name="ElementShortName">[33][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[33][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[32]" type="array">
+            <obj_property name="ElementShortName">[32][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[32][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[31]" type="array">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[30]" type="array">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[29]" type="array">
+            <obj_property name="ElementShortName">[29][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[28]" type="array">
+            <obj_property name="ElementShortName">[28][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[27]" type="array">
+            <obj_property name="ElementShortName">[27][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[26]" type="array">
+            <obj_property name="ElementShortName">[26][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[25]" type="array">
+            <obj_property name="ElementShortName">[25][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[24]" type="array">
+            <obj_property name="ElementShortName">[24][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[23]" type="array">
+            <obj_property name="ElementShortName">[23][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[22]" type="array">
+            <obj_property name="ElementShortName">[22][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[21]" type="array">
+            <obj_property name="ElementShortName">[21][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[20]" type="array">
+            <obj_property name="ElementShortName">[20][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[19]" type="array">
+            <obj_property name="ElementShortName">[19][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[18]" type="array">
+            <obj_property name="ElementShortName">[18][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[17]" type="array">
+            <obj_property name="ElementShortName">[17][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[16]" type="array">
+            <obj_property name="ElementShortName">[16][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer1[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2" type="array">
+         <obj_property name="ElementShortName">global_buffer2[63:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">global_buffer2[63:0][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[63]" type="array">
+            <obj_property name="ElementShortName">[63][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[63][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[62]" type="array">
+            <obj_property name="ElementShortName">[62][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[62][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[61]" type="array">
+            <obj_property name="ElementShortName">[61][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[61][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[60]" type="array">
+            <obj_property name="ElementShortName">[60][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[60][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[59]" type="array">
+            <obj_property name="ElementShortName">[59][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[59][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[58]" type="array">
+            <obj_property name="ElementShortName">[58][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[58][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[57]" type="array">
+            <obj_property name="ElementShortName">[57][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[57][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[56]" type="array">
+            <obj_property name="ElementShortName">[56][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[56][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[55]" type="array">
+            <obj_property name="ElementShortName">[55][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[55][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[54]" type="array">
+            <obj_property name="ElementShortName">[54][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[54][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[53]" type="array">
+            <obj_property name="ElementShortName">[53][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[53][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[52]" type="array">
+            <obj_property name="ElementShortName">[52][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[52][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[51]" type="array">
+            <obj_property name="ElementShortName">[51][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[51][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[50]" type="array">
+            <obj_property name="ElementShortName">[50][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[50][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[49]" type="array">
+            <obj_property name="ElementShortName">[49][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[49][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[48]" type="array">
+            <obj_property name="ElementShortName">[48][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[48][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[47]" type="array">
+            <obj_property name="ElementShortName">[47][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[47][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[46]" type="array">
+            <obj_property name="ElementShortName">[46][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[46][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[45]" type="array">
+            <obj_property name="ElementShortName">[45][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[45][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[44]" type="array">
+            <obj_property name="ElementShortName">[44][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[44][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[43]" type="array">
+            <obj_property name="ElementShortName">[43][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[43][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[42]" type="array">
+            <obj_property name="ElementShortName">[42][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[42][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[41]" type="array">
+            <obj_property name="ElementShortName">[41][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[41][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[40]" type="array">
+            <obj_property name="ElementShortName">[40][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[40][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[39]" type="array">
+            <obj_property name="ElementShortName">[39][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[39][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[38]" type="array">
+            <obj_property name="ElementShortName">[38][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[38][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[37]" type="array">
+            <obj_property name="ElementShortName">[37][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[37][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[36]" type="array">
+            <obj_property name="ElementShortName">[36][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[36][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[35]" type="array">
+            <obj_property name="ElementShortName">[35][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[35][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[34]" type="array">
+            <obj_property name="ElementShortName">[34][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[34][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[33]" type="array">
+            <obj_property name="ElementShortName">[33][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[33][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[32]" type="array">
+            <obj_property name="ElementShortName">[32][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[32][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[31]" type="array">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[30]" type="array">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[29]" type="array">
+            <obj_property name="ElementShortName">[29][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[28]" type="array">
+            <obj_property name="ElementShortName">[28][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[27]" type="array">
+            <obj_property name="ElementShortName">[27][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[26]" type="array">
+            <obj_property name="ElementShortName">[26][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[25]" type="array">
+            <obj_property name="ElementShortName">[25][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[24]" type="array">
+            <obj_property name="ElementShortName">[24][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[23]" type="array">
+            <obj_property name="ElementShortName">[23][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[22]" type="array">
+            <obj_property name="ElementShortName">[22][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[21]" type="array">
+            <obj_property name="ElementShortName">[21][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[20]" type="array">
+            <obj_property name="ElementShortName">[20][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[19]" type="array">
+            <obj_property name="ElementShortName">[19][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[18]" type="array">
+            <obj_property name="ElementShortName">[18][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[17]" type="array">
+            <obj_property name="ElementShortName">[17][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[16]" type="array">
+            <obj_property name="ElementShortName">[16][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">24</obj_property>
+            <obj_property name="radix_otherWidth">8</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[63]" type="array">
+            <obj_property name="ElementShortName">[63][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[63][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[62]" type="array">
+            <obj_property name="ElementShortName">[62][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[62][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[61]" type="array">
+            <obj_property name="ElementShortName">[61][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[61][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[60]" type="array">
+            <obj_property name="ElementShortName">[60][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[60][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[59]" type="array">
+            <obj_property name="ElementShortName">[59][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[59][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[58]" type="array">
+            <obj_property name="ElementShortName">[58][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[58][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[57]" type="array">
+            <obj_property name="ElementShortName">[57][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[57][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[56]" type="array">
+            <obj_property name="ElementShortName">[56][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[56][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[55]" type="array">
+            <obj_property name="ElementShortName">[55][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[55][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[54]" type="array">
+            <obj_property name="ElementShortName">[54][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[54][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[53]" type="array">
+            <obj_property name="ElementShortName">[53][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[53][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[52]" type="array">
+            <obj_property name="ElementShortName">[52][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[52][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[51]" type="array">
+            <obj_property name="ElementShortName">[51][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[51][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[50]" type="array">
+            <obj_property name="ElementShortName">[50][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[50][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[49]" type="array">
+            <obj_property name="ElementShortName">[49][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[49][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[48]" type="array">
+            <obj_property name="ElementShortName">[48][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[48][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[47]" type="array">
+            <obj_property name="ElementShortName">[47][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[47][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[46]" type="array">
+            <obj_property name="ElementShortName">[46][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[46][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[45]" type="array">
+            <obj_property name="ElementShortName">[45][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[45][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[44]" type="array">
+            <obj_property name="ElementShortName">[44][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[44][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[43]" type="array">
+            <obj_property name="ElementShortName">[43][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[43][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[42]" type="array">
+            <obj_property name="ElementShortName">[42][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[42][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[41]" type="array">
+            <obj_property name="ElementShortName">[41][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[41][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[40]" type="array">
+            <obj_property name="ElementShortName">[40][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[40][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[39]" type="array">
+            <obj_property name="ElementShortName">[39][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[39][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[38]" type="array">
+            <obj_property name="ElementShortName">[38][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[38][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[37]" type="array">
+            <obj_property name="ElementShortName">[37][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[37][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[36]" type="array">
+            <obj_property name="ElementShortName">[36][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[36][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[35]" type="array">
+            <obj_property name="ElementShortName">[35][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[35][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[34]" type="array">
+            <obj_property name="ElementShortName">[34][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[34][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[33]" type="array">
+            <obj_property name="ElementShortName">[33][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[33][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[32]" type="array">
+            <obj_property name="ElementShortName">[32][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[32][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[31]" type="array">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[30]" type="array">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[29]" type="array">
+            <obj_property name="ElementShortName">[29][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[28]" type="array">
+            <obj_property name="ElementShortName">[28][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[27]" type="array">
+            <obj_property name="ElementShortName">[27][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[26]" type="array">
+            <obj_property name="ElementShortName">[26][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[25]" type="array">
+            <obj_property name="ElementShortName">[25][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[24]" type="array">
+            <obj_property name="ElementShortName">[24][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[23]" type="array">
+            <obj_property name="ElementShortName">[23][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[22]" type="array">
+            <obj_property name="ElementShortName">[22][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[21]" type="array">
+            <obj_property name="ElementShortName">[21][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[20]" type="array">
+            <obj_property name="ElementShortName">[20][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[19]" type="array">
+            <obj_property name="ElementShortName">[19][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[18]" type="array">
+            <obj_property name="ElementShortName">[18][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[17]" type="array">
+            <obj_property name="ElementShortName">[17][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[16]" type="array">
+            <obj_property name="ElementShortName">[16][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/global_buffer2[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2582" type="group">
+      <obj_property name="label">tb_pe_array</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_pe_array/rddata" type="array">
+         <obj_property name="ElementShortName">rddata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rddata[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/wrdata" type="array">
+         <obj_property name="ElementShortName">wrdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wrdata[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/rdaddr" type="array">
+         <obj_property name="ElementShortName">rdaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdaddr[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/mem" type="array">
+         <obj_property name="ElementShortName">mem[0:8191][31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[0:8191][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2594" type="group">
+      <obj_property name="label">pe0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /ain" type="array">
+         <obj_property name="ElementShortName">ain[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ain[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /bin" type="array">
+         <obj_property name="ElementShortName">bin[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bin[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /dvalid" type="logic">
+         <obj_property name="ElementShortName">dvalid</obj_property>
+         <obj_property name="ObjectShortName">dvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /dout" type="array">
+         <obj_property name="ElementShortName">dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /psum" type="array">
+         <obj_property name="ElementShortName">psum[31:0]</obj_property>
+         <obj_property name="ObjectShortName">psum[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /res" type="array">
+         <obj_property name="ElementShortName">res[31:0]</obj_property>
+         <obj_property name="ObjectShortName">res[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2605" type="group">
+      <obj_property name="label">pe1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[1].MY_PE /aclk" type="logic">
+         <obj_property name="ElementShortName">aclk</obj_property>
+         <obj_property name="ObjectShortName">aclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[1].MY_PE /aresetn" type="logic">
+         <obj_property name="ElementShortName">aresetn</obj_property>
+         <obj_property name="ObjectShortName">aresetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[1].MY_PE /ain" type="array">
+         <obj_property name="ElementShortName">ain[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ain[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[1].MY_PE /bin" type="array">
+         <obj_property name="ElementShortName">bin[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bin[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[1].MY_PE /valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[1].MY_PE /dvalid" type="logic">
+         <obj_property name="ElementShortName">dvalid</obj_property>
+         <obj_property name="ObjectShortName">dvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[1].MY_PE /dout" type="array">
+         <obj_property name="ElementShortName">dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[1].MY_PE /psum" type="array">
+         <obj_property name="ElementShortName">psum[31:0]</obj_property>
+         <obj_property name="ObjectShortName">psum[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[1].MY_PE /res" type="array">
+         <obj_property name="ElementShortName">res[31:0]</obj_property>
+         <obj_property name="ObjectShortName">res[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group35780" type="group">
+      <obj_property name="label">pe7</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[7].MY_PE /aclk" type="logic">
+         <obj_property name="ElementShortName">aclk</obj_property>
+         <obj_property name="ObjectShortName">aclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[7].MY_PE /aresetn" type="logic">
+         <obj_property name="ElementShortName">aresetn</obj_property>
+         <obj_property name="ObjectShortName">aresetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[7].MY_PE /ain" type="array">
+         <obj_property name="ElementShortName">ain[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ain[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[7].MY_PE /bin" type="array">
+         <obj_property name="ElementShortName">bin[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bin[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[7].MY_PE /valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[7].MY_PE /dvalid" type="logic">
+         <obj_property name="ElementShortName">dvalid</obj_property>
+         <obj_property name="ObjectShortName">dvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[7].MY_PE /dout" type="array">
+         <obj_property name="ElementShortName">dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[7].MY_PE /psum" type="array">
+         <obj_property name="ElementShortName">psum[31:0]</obj_property>
+         <obj_property name="ObjectShortName">psum[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[7].MY_PE /res" type="array">
+         <obj_property name="ElementShortName">res[31:0]</obj_property>
+         <obj_property name="ObjectShortName">res[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group31684" type="group">
+      <obj_property name="label">pe16</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[16].MY_PE /ain" type="array">
+         <obj_property name="ElementShortName">ain[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ain[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[16].MY_PE /bin" type="array">
+         <obj_property name="ElementShortName">bin[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bin[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[16].MY_PE /valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[16].MY_PE /dvalid" type="logic">
+         <obj_property name="ElementShortName">dvalid</obj_property>
+         <obj_property name="ObjectShortName">dvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[16].MY_PE /dout" type="array">
+         <obj_property name="ElementShortName">dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[16].MY_PE /psum" type="array">
+         <obj_property name="ElementShortName">psum[31:0]</obj_property>
+         <obj_property name="ObjectShortName">psum[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[16].MY_PE /res" type="array">
+         <obj_property name="ElementShortName">res[31:0]</obj_property>
+         <obj_property name="ObjectShortName">res[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group31676" type="group">
+      <obj_property name="label">pe63</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[63].MY_PE /ain" type="array">
+         <obj_property name="ElementShortName">ain[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ain[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[63].MY_PE /bin" type="array">
+         <obj_property name="ElementShortName">bin[31:0]</obj_property>
+         <obj_property name="ObjectShortName">bin[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[63].MY_PE /valid" type="logic">
+         <obj_property name="ElementShortName">valid</obj_property>
+         <obj_property name="ObjectShortName">valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[63].MY_PE /dvalid" type="logic">
+         <obj_property name="ElementShortName">dvalid</obj_property>
+         <obj_property name="ObjectShortName">dvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[63].MY_PE /dout" type="array">
+         <obj_property name="ElementShortName">dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[63].MY_PE /psum" type="array">
+         <obj_property name="ElementShortName">psum[31:0]</obj_property>
+         <obj_property name="ObjectShortName">psum[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[63].MY_PE /res" type="array">
+         <obj_property name="ElementShortName">res[31:0]</obj_property>
+         <obj_property name="ObjectShortName">res[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group3766" type="group">
+      <obj_property name="label">pe1_ip</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /my_float/aclk" type="logic">
+         <obj_property name="ElementShortName">aclk</obj_property>
+         <obj_property name="ObjectShortName">aclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /my_float/aresetn" type="logic">
+         <obj_property name="ElementShortName">aresetn</obj_property>
+         <obj_property name="ObjectShortName">aresetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /my_float/s_axis_a_tvalid" type="logic">
+         <obj_property name="ElementShortName">s_axis_a_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_a_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /my_float/s_axis_a_tdata" type="array">
+         <obj_property name="ElementShortName">s_axis_a_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_a_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /my_float/s_axis_b_tvalid" type="logic">
+         <obj_property name="ElementShortName">s_axis_b_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_b_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /my_float/s_axis_b_tdata" type="array">
+         <obj_property name="ElementShortName">s_axis_b_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_b_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /my_float/s_axis_c_tvalid" type="logic">
+         <obj_property name="ElementShortName">s_axis_c_tvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axis_c_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /my_float/s_axis_c_tdata" type="array">
+         <obj_property name="ElementShortName">s_axis_c_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axis_c_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /my_float/m_axis_result_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_result_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_result_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_pe_array/MY_PE_ARRAY/\MY_PE_ARRAY[0].MY_PE /my_float/m_axis_result_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_result_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_result_tdata[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

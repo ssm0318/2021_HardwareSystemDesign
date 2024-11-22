@@ -1,0 +1,26 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 20 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 40 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 2 -y 970 -defaultsOSRD
+preplace inst myip_0 -pg 1 -lvl 1 -y 600 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 1 -y 470 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 1 -y 140 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 1 -y 340 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 800 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 2 560 20 NJ
+preplace netloc axi_mem_intercon_M01_AXI 1 0 2 80 960 530
+preplace netloc processing_system7_0_M_AXI_GP0 1 0 2 20 980 510
+preplace netloc myip_0_m00_bram 1 0 2 60 970 520
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 0 2 70 940 500
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 560
+preplace netloc axi_mem_intercon_M00_AXI 1 0 2 50 950 540
+preplace netloc processing_system7_0_FIXED_IO 1 1 2 570 40 NJ
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 3 40 1000 570J 870 930
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 2 30 990 550
+levelinfo -pg 1 0 290 750 950 -top 0 -bot 1070
+"
+}
+

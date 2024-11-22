@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_pe_array_behav/xsimk.exe -simmode gui -wdb tb_pe_array_behav.wdb -simrunnum 0 -socket 52058
+Design successfully loaded
+Design Loading Memory Usage: 122408 KB (Peak: 122408 KB)
+Design Loading CPU Usage: 374 ms

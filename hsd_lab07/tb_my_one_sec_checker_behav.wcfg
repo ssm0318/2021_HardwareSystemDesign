@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_my_one_sec_checker_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_my_one_sec_checker" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="656400000fs"></ZoomStartTime>
+      <ZoomEndTime time="949400001fs"></ZoomEndTime>
+      <Cursor1Time time="805800000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="252"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="logic" fp_name="/tb_my_one_sec_checker/GCLK">
+      <obj_property name="ElementShortName">GCLK</obj_property>
+      <obj_property name="ObjectShortName">GCLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_my_one_sec_checker/BTNC">
+      <obj_property name="ElementShortName">BTNC</obj_property>
+      <obj_property name="ObjectShortName">BTNC</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_my_one_sec_checker/MY_ONE_SEC_CHECKER/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_my_one_sec_checker/MY_ONE_SEC_CHECKER/load">
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_my_one_sec_checker/MY_ONE_SEC_CHECKER/tick">
+      <obj_property name="ElementShortName">tick</obj_property>
+      <obj_property name="ObjectShortName">tick</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_my_one_sec_checker/MY_ONE_SEC_CHECKER/LD">
+      <obj_property name="ElementShortName">LD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LD[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_my_one_sec_checker/MY_ONE_SEC_CHECKER/down_counter">
+      <obj_property name="ElementShortName">down_counter[27:0]</obj_property>
+      <obj_property name="ObjectShortName">down_counter[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_my_one_sec_checker/MY_ONE_SEC_CHECKER/up_counter">
+      <obj_property name="ElementShortName">up_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">up_counter[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

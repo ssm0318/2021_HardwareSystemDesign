@@ -1,0 +1,17 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/kleen/Documents/hsd/lab04/lab04_0329/lab04_0329.srcs/sources_1/ip/floating_point_0/demo_tb/tb_floating_point_0.vhd,1617018785,vhdl,,,,tb_floating_point_0,,,,,,,,
+C:/Users/kleen/Documents/hsd/lab04/lab04_0329/lab04_0329.srcs/sources_1/ip/xbip_multadd_0_4/sim/xbip_multadd_0.vhd,1617192316,vhdl,,,,xbip_multadd_0,,,,,,,,
+C:/Users/kleen/Documents/hsd/lab04/lab04_0329/lab04_0329.srcs/sources_1/ip/xbip_multadd_1_1/sim/xbip_multadd_1.vhd,1617193862,vhdl,,,,xbip_multadd_1,,,,,,,,
+C:/Users/kleen/Documents/hsd/lab04/lab04_0329/lab04_0329.srcs/sources_1/new/tb_adder_array.v,1617200657,verilog,,,,tb_adder_array,,,,,,,,
+C:/Users/kleen/Documents/hsd/lab04/lab04_0329/lab04_0329.srcs/sources_1/new/tb_lab4.v,1617198763,verilog,,,,tb,,,,,,,,
+C:/Users/kleen/Documents/hsd/lab05/lab04_0329/lab04_0329.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/kleen/Documents/hsd/lab05/lab04_0329/lab04_0329.srcs/sources_1/imports/new/my_add.v,1615693270,verilog,,C:/Users/kleen/Documents/hsd/lab05/lab04_0329/lab04_0329.srcs/sources_1/new/adder_array.v,,my_add,,,,,,,,
+C:/Users/kleen/Documents/hsd/lab05/lab04_0329/lab04_0329.srcs/sources_1/ip/floating_point_0/sim/floating_point_0.vhd,1617018785,vhdl,,,,floating_point_0,,,,,,,,
+C:/Users/kleen/Documents/hsd/lab05/lab04_0329/lab04_0329.srcs/sources_1/new/adder_array.v,1617201786,verilog,,,,adder_array,,,,,,,,
+C:/Users/kleen/Documents/hsd/lab05/lab04_0329/lab04_0329.srcs/sources_1/new/bram.v,1617801080,verilog,,C:/Users/kleen/Documents/hsd/lab05/lab04_0329/lab04_0329.srcs/sources_1/new/tb_my_bram.v,,my_bram,,,,,,,,
+C:/Users/kleen/Documents/hsd/lab05/lab04_0329/lab04_0329.srcs/sources_1/new/pe.v,1617802657,verilog,,C:/Users/kleen/Documents/hsd/lab05/lab04_0329/lab04_0329.srcs/sources_1/new/tb_my_pe.v,,my_pe,,,,,,,,
+C:/Users/kleen/Documents/hsd/lab05/lab04_0329/lab04_0329.srcs/sources_1/new/tb_my_bram.v,1617799510,verilog,,,,tb_my_bram,,,,,,,,
+C:/Users/kleen/Documents/hsd/lab05/lab04_0329/lab04_0329.srcs/sources_1/new/tb_my_pe.v,1617806985,verilog,,,,tb_my_pe,,,,,,,,
