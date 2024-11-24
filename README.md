@@ -1,4 +1,4 @@
-# HardwareSystemDesign2021
+# 2021_HardwareSystemDesign
 
 Course Goal: Understanding hardware/software system design issues/methods with a real system design examples
 - Image recognition application running on Zynq FPGA
@@ -23,7 +23,7 @@ Course Goal: Understanding hardware/software system design issues/methods with a
 - W13 Low power design (or invited talk)/V0+DMA+8b (8b design)  
 - W14 V0+DMA+8b+zero-skipping  
 - W15 Final exam/Term project  
-- W16 Term project (**Matrix Multiplication IP**: V0+DMA+8b+zero) submission  
+- W16 Term project (**8x8 Matrix-Matrix Multiplication Accelerator IP**: V0+DMA+8b+zero) submission  
 
 Final Project: 57/50 (Bonus points for implementing DMA)  
 
